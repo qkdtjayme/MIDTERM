@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', sans-serif;
+            background-color: #aeb9e7;
+            display: flex;
+            align-items: top;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: rgba(231, 240, 180, 0.781);
+            padding: 80px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgb(75, 92, 107);
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #5F9EA0;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <form action="login.php" method="post">
+            <input type="text" name="username" placeholder="First Name" required>
+            <br>
+            <input type="password" name="password" placeholder="Last Name" required>
+            <br>
+            <input type="text" name="username" placeholder="Username" required>
+            <br>
+            <input type="password" name="password" placeholder="Password" required>
+            <br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
